@@ -135,20 +135,7 @@ Emotion-ray/
 ```
 
 ---
-
-This version now:
-
-* **Highlights incremental improvements** clearly with stars
-* Keeps all tables, visuals, and performance metrics intact
-* Includes badges, live demo, usage instructions, and future plans
-
----
-
-If you want, I can also **suggest one small tweak to make it even more portfolio-friendly**: adding **mini emojis or colored labels to the tables** for immediate visual cues (like green ↑ for improvement, red ↓ for drop).
-
-Do you want me to do that?
-
----
+-
 
 ### ⭐ Visual Summary: F1 Score Improvements (Star + Arrows)
 
