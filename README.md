@@ -70,28 +70,28 @@ The project is designed to be **modular and deployable**, making it suitable for
 
 ---
 
-## 📊 Visual Summary: F1 Score Improvements
+## ⭐ Visual Summary: F1 Score Improvements (Star-style)
 
 ### Per Emotion
 
-| Emotion     | Baseline F1 | Augmented F1 | Visual                     |
-| ----------- | ----------- | ------------ | -------------------------- |
-| 😠 Anger    | 0.89        | 0.92         | ██████████ → ███████████   |
-| 😨 Fear     | 0.88        | 0.96         | █████████ → █████████████  |
-| 😊 Joy      | 0.92        | 0.95         | ███████████ → ████████████ |
-| 💗 Love     | 0.80        | 0.93         | █████████ → ███████████    |
-| 😢 Sadness  | 0.93        | 0.92         | ███████████ → ██████████   |
-| 😲 Surprise | 0.79        | 0.96         | ████████ → █████████████   |
+| Emotion     | Baseline F1 | Augmented F1 | Visual        |
+| ----------- | ----------- | ------------ | ------------- |
+| 😠 Anger    | 0.89        | 0.92         | ★★★★☆ → ★★★★★ |
+| 😨 Fear     | 0.88        | 0.96         | ★★★★☆ → ★★★★★ |
+| 😊 Joy      | 0.92        | 0.95         | ★★★★★ → ★★★★★ |
+| 💗 Love     | 0.80        | 0.93         | ★★★★☆ → ★★★★★ |
+| 😢 Sadness  | 0.93        | 0.92         | ★★★★★ → ★★★★★ |
+| 😲 Surprise | 0.79        | 0.96         | ★★★★☆ → ★★★★★ |
 
 ### Overall Metrics
 
-| Metric      | Baseline | Augmented | Visual                    |
-| ----------- | -------- | --------- | ------------------------- |
-| Accuracy    | 0.90     | 0.95      | ██████████ → ████████████ |
-| Macro F1    | 0.87     | 0.94      | █████████ → ███████████   |
-| Weighted F1 | 0.90     | 0.95      | ██████████ → ████████████ |
+| Metric      | Baseline | Augmented | Visual        |
+| ----------- | -------- | --------- | ------------- |
+| Accuracy    | 0.90     | 0.95      | ★★★★★ → ★★★★★ |
+| Macro F1    | 0.87     | 0.94      | ★★★★☆ → ★★★★★ |
+| Weighted F1 | 0.90     | 0.95      | ★★★★★ → ★★★★★ |
 
-**Legend:** Each block ≈ 0.01 F1 score
+**Legend:** ★ = ~0.20 F1; arrows show baseline → augmented
 
 ---
 
@@ -135,4 +135,48 @@ Emotion-ray/
 ```
 
 ---
+
+This version now:
+
+* **Highlights incremental improvements** clearly with stars
+* Keeps all tables, visuals, and performance metrics intact
+* Includes badges, live demo, usage instructions, and future plans
+
+---
+
+If you want, I can also **suggest one small tweak to make it even more portfolio-friendly**: adding **mini emojis or colored labels to the tables** for immediate visual cues (like green ↑ for improvement, red ↓ for drop).
+
+Do you want me to do that?
+
+---
+
+### ⭐ Visual Summary: F1 Score Improvements (Star + Arrows)
+
+| Emotion     | Baseline F1 | Augmented F1 | Visual            |
+| ----------- | ----------- | ------------ | ----------------- |
+| 😠 Anger    | 0.89        | 0.92         | ★★★★☆ → ★★★★★ 🟢↑ |
+| 😨 Fear     | 0.88        | 0.96         | ★★★★☆ → ★★★★★ 🟢↑ |
+| 😊 Joy      | 0.92        | 0.95         | ★★★★★ → ★★★★★ 🟢↑ |
+| 💗 Love     | 0.80        | 0.93         | ★★★★☆ → ★★★★★ 🟢↑ |
+| 😢 Sadness  | 0.93        | 0.92         | ★★★★★ → ★★★★★ 🔴↓ |
+| 😲 Surprise | 0.79        | 0.96         | ★★★★☆ → ★★★★★ 🟢↑ |
+
+---
+
+### Overall Metrics (Star + Arrows)
+
+| Metric      | Baseline | Augmented | Visual            |
+| ----------- | -------- | --------- | ----------------- |
+| Accuracy    | 0.90     | 0.95      | ★★★★★ → ★★★★★ 🟢↑ |
+| Macro F1    | 0.87     | 0.94      | ★★★★☆ → ★★★★★ 🟢↑ |
+| Weighted F1 | 0.90     | 0.95      | ★★★★★ → ★★★★★ 🟢↑ |
+
+**Legend:**
+
+* ★ = ~0.20 F1
+* Arrows + color indicate change (🟢↑ = improvement, 🔴↓ = slight decrease)
+* Arrows show baseline → augmented
+
+---
+
 
